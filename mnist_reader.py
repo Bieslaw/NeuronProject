@@ -9,12 +9,9 @@ def read_int_data(path) -> np.ndarray:
         # 4 bytes of magic number
         magic_number = f.read(4)
         dimensions = magic_number[3]
-        print(f"Dimensionality {dimensions}")
         dimenstion_sizes = [
             int.from_bytes(f.read(4), byteorder="big") for _ in range(dimensions)
         ]
-        for i, dim in enumerate(dimenstion_sizes):
-            print(f"Dimension {i} size {dim}")
         data_size = reduce(mul, dimenstion_sizes)
         data = f.read(data_size)
         array = np.frombuffer(data, dtype=np.uint8)
