@@ -55,6 +55,64 @@ Focal Loss
 * test
 	* ROC_AUC: 0.7364716928598911
 
+Eksperymet #3
+
+#Temperatura
+Model bazowy:
+* train
+	* Mean absolute error: 2.224468288295613
+	* Fraction of predictions with absolute error <= 2: 0.5564064053476614
+* test
+	* Mean absolute error: 2.190860158016228
+	* Fraction of predictions with absolute error <= 2: 0.5778095849168353
+
+Model A:
+* train
+	* Mean absolute error: 3.885937565076981
+	* Fraction of predictions with absolute error <= 2: 0.2896579442810907
+* test
+	* Mean absolute error: 4.373468597912471
+	* Fraction of predictions with absolute error <= 2: 0.23947485316618133
+
+Model B:
+* train
+	* Mean absolute error: 2.8950658878883457
+	* Fraction of predictions with absolute error <= 2: 0.44014553762189834
+* test
+	* Mean absolute error: 2.8562665584401485
+	* Fraction of predictions with absolute error <= 2: 0.44760870638171857
+
+Model C:
+* train
+	* Mean absolute error: 3.420493176038504
+	* Fraction of predictions with absolute error <= 2: 0.36335751909123604
+* test
+	* Mean absolute error: 3.231835450897093
+	* Fraction of predictions with absolute error <= 2: 0.40027639307043084
 
 
+#### Wiatr
+Model bazowy:
+* train
+	* ROC_AUC: 0.8946494058812555
+* test
+	* ROC_AUC: 0.7575780489670345
+
+Model A:
+* train
+	* ROC_AUC: 0.9235322304553445
+* test
+	* ROC_AUC: 0.7359713849721106
+
+Model B:
+* train
+	* ROC_AUC: 0.8920216206609455
+* test
+	* ROC_AUC: 0.7655038960096339
+
+Model C:
+* train
+	* ROC_AUC: 0.9165502355096555
+* test
+	* ROC_AUC: 0.7293944054175762
 
