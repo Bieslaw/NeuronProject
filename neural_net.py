@@ -21,10 +21,11 @@ class P1_Net(nn.Module):
 
 def do_train(network: P1_Net, train_loader: torch.utils.data.DataLoader, 
               optimizer: torch.optim.Optimizer, loss_criterion, epochs = 2):
-    loss = 0.0
     for k in range(epochs):
         running_loss = 0.0
+        iterations = 0
         for i, data in enumerate(train_loader):
+            iterations+=1
             inputs, labels = data
             
             optimizer.zero_grad()
@@ -36,7 +37,7 @@ def do_train(network: P1_Net, train_loader: torch.utils.data.DataLoader,
 
             running_loss += loss.item()
             loss = loss.item()
-            print(f'[{k + 1}, {i + 1:5d}] loss: {loss:.3f}')
+        print(f'[{k + 1}] loss: {running_loss / iterations:.3f}')
 
 
 # df_x = np.random.uniform(0, 2 * np.pi, 1000)
