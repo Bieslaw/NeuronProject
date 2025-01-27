@@ -26,34 +26,32 @@
 #### Temperatura
 MSE
 * train
-	* Mean absolute error: 2.224468288295613
-	* Fraction of predictions with absolute error <= 2: 0.5564064053476614
+	* Mean absolute error: 2.7366398443966724
+	* Fraction of predictions with absolute error <= 2: 0.4564493905670376
 * test
-	* Mean absolute error: 2.190860158016228
-	* Fraction of predictions with absolute error <= 2: 0.5778095849168353
-
+	* Mean absolute error: 3.2020090362711473
+	* Fraction of predictions with absolute error <= 2: 0.36040358079034573
 
 MAE
 * train
-	* Mean absolute error: 2.1749646674385086
-	* Fraction of predictions with absolute error <= 2: 0.5805004971125167
+	* Mean absolute error: 2.7153965778624434
+	* Fraction of predictions with absolute error <= 2: 0.47406465288818234
 * test
-	* Mean absolute error: 2.1710920349148526
-	* Fraction of predictions with absolute error <= 2: 0.5876314100982183
+	* Mean absolute error: 3.2426464396045653
+	* Fraction of predictions with absolute error <= 2: 0.34996785202037684
 
 #### Wiatr
 Cross Entropy
 * train
-	* ROC_AUC: 0.8946494058812555
+	* ROC_AUC: 0.8568076843225534
 * test
-	* ROC_AUC: 0.7575780489670345
-
+	* ROC_AUC: 0.6623236636447205
 
 Focal Loss
 * train
-	* ROC_AUC: 0.9678768633465775
+	* ROC_AUC: 0.956059191720526
 * test
-	* ROC_AUC: 0.7364716928598911
+	* ROC_AUC: 0.6340628170325261
 
 ###Eksperymet #3
 ####Temperatura
