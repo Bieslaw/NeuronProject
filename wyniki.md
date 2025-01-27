@@ -57,62 +57,61 @@ Focal Loss
 ####Temperatura
 Model bazowy:
 * train
-	* Mean absolute error: 2.224468288295613
-	* Fraction of predictions with absolute error <= 2: 0.5564064053476614
+	* Mean absolute error: 2.7366398443966724
+	* Fraction of predictions with absolute error <= 2: 0.4564493905670376
 * test
-	* Mean absolute error: 2.190860158016228
-	* Fraction of predictions with absolute error <= 2: 0.5778095849168353
+	* Mean absolute error: 3.2020090362711473
+	* Fraction of predictions with absolute error <= 2: 0.36040358079034573
 
 Model A:
 * train
-	* Mean absolute error: 3.885937565076981
-	* Fraction of predictions with absolute error <= 2: 0.2896579442810907
+	* Mean absolute error: 7.021524060770603
+	* Fraction of predictions with absolute error <= 2: 0.13971383147853733
 * test
-	* Mean absolute error: 4.373468597912471
-	* Fraction of predictions with absolute error <= 2: 0.23947485316618133
+	* Mean absolute error: 7.634810577571083
+	* Fraction of predictions with absolute error <= 2: 0.12953162866610612
 
 Model B:
 * train
-	* Mean absolute error: 2.8950658878883457
-	* Fraction of predictions with absolute error <= 2: 0.44014553762189834
+	* Mean absolute error: 3.1771367505403685
+	* Fraction of predictions with absolute error <= 2: 0.3767037625861155
 * test
-	* Mean absolute error: 2.8562665584401485
-	* Fraction of predictions with absolute error <= 2: 0.44760870638171857
+	* Mean absolute error: 3.6946716206128265
+	* Fraction of predictions with absolute error <= 2: 0.30426826252534744
 
 Model C:
 * train
-	* Mean absolute error: 3.420493176038504
-	* Fraction of predictions with absolute error <= 2: 0.36335751909123604
+	* Mean absolute error: 4.862332956343701
+	* Fraction of predictions with absolute error <= 2: 0.23249602543720194
 * test
-	* Mean absolute error: 3.231835450897093
-	* Fraction of predictions with absolute error <= 2: 0.40027639307043084
+	* Mean absolute error: 5.384959335249013
+	* Fraction of predictions with absolute error <= 2: 0.19872397250111284
 
 
 #### Wiatr
 Model bazowy:
 * train
-	* ROC_AUC: 0.8946494058812555
+	* ROC_AUC: 0.8568076843225534
 * test
-	* ROC_AUC: 0.7575780489670345
+	* ROC_AUC: 0.6623236636447205
 
 Model A:
 * train
-	* ROC_AUC: 0.9235322304553445
+	* ROC_AUC: 0.8958818590728733
 * test
-	* ROC_AUC: 0.7359713849721106
+	* ROC_AUC: 0.6315882784791245
 
 Model B:
 * train
-	* ROC_AUC: 0.8920216206609455
+	* ROC_AUC: 0.8472582955958052
 * test
-	* ROC_AUC: 0.7655038960096339
+	* ROC_AUC: 0.6839878636916268
 
 Model C:
 * train
-	* ROC_AUC: 0.9165502355096555
+	* ROC_AUC: 0.887167637953014
 * test
-	* ROC_AUC: 0.7293944054175762
-
+	* ROC_AUC: 0.628390203745488
 
 ###Eksperymet #4
 ####Temperatura
